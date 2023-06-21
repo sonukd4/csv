@@ -1,0 +1,87 @@
+body {
+  background: #fff;
+  font-family: "Fira Sans", sans-serif;
+  box-sizing: border-box;
+}
+.title {
+  height: 15vh;
+  margin: 3px;
+}
+.appBody {
+  display: flex;
+  height: 80vh;
+}
+.settings {
+  width: 30vw;
+  overflow-y: auto;
+}
+.view {
+  width: 70vw;
+  padding: 3px;
+}
+.blankCenterDiv {
+  width: 70vw;
+  background: #fff;
+  border: 0;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80vh;
+  color: #1abc9c;
+  font-size: 2em;
+}
+.loader {
+  width: 70vw;
+  margin-top: 30vh;
+}
+.button {
+  width: 28vw;
+  height: 7vh;
+  margin: 1vw;
+}
+.select {
+  width: 28vw;
+  height: 10vh;
+  margin: 1vw;
+}
+.title-head {
+  width: 100vw;
+  color: #1abc9c;
+  text-align: center;
+  vertical-align: middle;
+}
+.title-sub {
+  width: 100vw;
+  text-align: center;
+  vertical-align: middle;
+}
+.updateInfo {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 10vh;
+  font-size: 1.2em;
+  margin-top: -5vh;
+}
+.viewTable {
+  background: #fff;
+  max-height: 70vh;
+  max-width: 70vw;
+  margin: 3px;
+}
+.settingsInfo {
+  text-align: center;
+  vertical-align: middle;
+  width: 30vw;
+  padding: 10px;
+}
+
+.ReactTable .-pagination {
+  height: 8vh;
+}
+.ReactTable .-pagination .-btn {
+  background: #1abc9c;
+  color: #fff;
+}
+.ReactTable .-pagination .-pageJump input {
+  height: 6vh;
+  margin: 0;
+}
